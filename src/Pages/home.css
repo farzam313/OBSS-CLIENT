@@ -1,0 +1,55 @@
+.parent_div{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin: 30px;
+    border: solid gold;
+
+}
+.users{
+    border: solid red;
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+.books{
+    border: solid red;
+    width: fit-content;
+    height: fit-content;
+}
+
+.nos{
+    width: 200px;
+    height: 200px;
+    
+}
+.bcategories{
+    width: 200px;
+    height: 200px;
+    
+}
+
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+.go_to_register, .user_dtl_btn{
+    margin: 10px;
+    background-color: rgb(146, 241, 95);
+    width: 100px;
+  }
+
+/* .book_table{
+    row-gap: 50px;
+    column-gap: 50px;
+    border-collapse: collapse;
+    width: 100%;
+  
+  padding: 8px;
+  text-align: left;
+  padding: 10px;
+
+} */

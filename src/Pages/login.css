@@ -1,0 +1,26 @@
+.auth-form-container-login{
+    /* position: relative; */
+    display: block;
+    width: 20vw;
+    margin: auto;
+    padding:2rem;
+}
+
+.auth-form-container-login input{
+ width: auto;
+}
+.auth-form-container-login{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 10px;
+    border: solid 1px rgb(41, 207, 207);
+    border-radius: 10px;
+  
+  }
+  .wellcome{
+    color: rgb(218, 222, 9);
+  }
+.auth-form-container-login input{
+    margin: inherit;
+}

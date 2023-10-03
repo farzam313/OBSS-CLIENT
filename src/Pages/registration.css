@@ -1,0 +1,116 @@
+.reg2{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+   
+    align-items: left;
+    justify-content:safe;
+    align-items: auto;
+    margin-top: 9px;
+    margin-bottom: 9px;
+
+}
+
+.reg1{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    
+    align-items: left;
+    justify-content: space-evenly;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+#country{
+    height: 38px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.reg2 label,.reg1 label{
+    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-left: 5px;
+    color:rgb(194, 235, 31);
+    height: 10px;
+    padding-top: 3px;
+    width: 285px;
+}
+
+.reg1 input,.reg2 input{
+  background-color: white;
+}
+
+
+
+
+.profilePicture{
+    background-color: white;
+    padding-bottom: 5px;
+}
+
+
+.submit_btn{
+    padding-bottom: 3px;
+    margin-bottom: 2px;
+    width: 200px;
+    align-self: center;
+    margin-top: 5px;
+}
+
+.profilePicture{
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+.reg_form_container{
+    /* border: solid 2px greenyellow; */
+    border-radius: 10px;
+}
+.img_container{
+    height: 250px;
+    width: 200px;
+    border: solid 2px yellow;
+    margin-top: 5px;
+    margin-left: 98px;
+}
+
+.profile_div{
+    height: 200px;
+    width: 200px;
+    border: solid 2px rgb(41, 207, 207);
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.profile_pic{ height: 200px;
+width: 200px;
+
+}
+
+.auth-form-container-register{
+
+    border: solid 1px rgb(41, 207, 207);
+    border-radius: 10px;
+    padding: 30px;
+}
+.auth-form-container-register input,select{
+  width: 260px;
+  margin:auto;
+  
+  align-self: center;
+  justify:left;
+}
+
+.auth-form-container-register select, option input[type="file"]{
+    width: 260px;
+  }
+  
+
+
+

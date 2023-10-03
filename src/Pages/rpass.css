@@ -1,0 +1,8 @@
+.auth-form-container-resetpassword{
+    display: flex;
+    padding: 30px;
+    margin: 10px;
+    border: solid 1px rgb(41, 207, 207);
+    border-radius: 10px;
+  
+  }

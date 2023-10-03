@@ -1,0 +1,81 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+  min-width: 20vh;
+  align-items: center;
+  justify-content: center;
+  color: rgb(71, 8, 215);
+  background-image:linear-gradient(79deg,#a57fd1,#3fdd79,48%,#4d8bf7)
+  
+
+}
+
+
+
+
+
+
+
+@med.auth-form-container{
+  padding: 3rem;
+  border:1px solid white;
+  border-radius: 10px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+
+} 
+
+ 
+
+label{
+  text-align: left;
+  padding: 0.5rem 0;
+  color: hsl(132, 86%, 34%);
+}
+input{
+  margin: auto;
+  padding: 1rem;
+  border:none;
+  border-radius:10px;
+ 
+}
+
+
+button{
+  border: none;
+  background-color: white;
+  padding: 1px;
+  margin-top: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #8437db;
+  height: 45px;
+  padding-bottom: 5px;
+}
+.link-btn{
+  background: none;
+  color: #8437db;
+  text-decoration: underline;
+
+}
+.header{
+  background-color: #73a0ee;
+  height: 10px;
+  width: auto;
+  border:  solid 2px #c98b51;
+}
+.auth-form-container{
+display: flex;
+flex-direction: column;
+  
+}
+.auth-form-container label{
+  width: 285px;
+}
+
+
+
+
+

@@ -1,0 +1,135 @@
+.book-form-container{
+    display: flex;
+    padding-bottom: 20px;
+    border: solid 2px blue;
+
+    
+}
+.book_reg{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.book_reg1 [type="file"]{
+    height: 5px;
+    margin: 7px;
+    width: 100;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: red;
+
+}
+.book_reg1 label{
+    height: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    
+    width: 200px;
+    padding-left: 25px;
+    padding-right: 0px;
+    
+
+}
+
+
+.book_reg1 option,select{
+    height: 40px;
+    border-radius: 10px;
+    color: cadetblue;
+    width: 300px;
+    /* padding-left: 5px; */
+    padding-right: 0;
+}
+.book_reg1 input{
+    height: 5px;
+    border-radius: 10px;
+    color: rgb(54, 128, 39);
+    width: 245px;
+    padding-left: 10;
+    padding-right: 0;
+    /* background-color: red; */
+}
+textarea{
+    height: 70px;
+    width: auto;
+    width: 245px;
+    padding-left: 10px;
+    padding-right: 0;
+    margin-left: 20px;
+}
+
+::placeholder{
+    color: cadetblue;
+}
+
+
+
+.filelabel {
+    width: 120px;
+    border: 2px dashed rgb(121, 45, 124);
+    border-radius: 5px;
+    display: block;
+    padding: 5px;
+    transition: border 300ms ease;
+    cursor: pointer;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+
+
+
+.custom-file-input{
+    
+    display: flex;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    background-color: white;
+    height: 20px;
+    color: cadetblue;
+   
+    
+}
+
+
+.book_reg2{
+    display: flex;
+    flex-direction: column;
+    border: solid  0px goldenrod;
+    /* padding: 20px; */
+    margin: 30px;
+    width: 300px;
+    height: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;    
+}
+.book_reg1{
+    display: flex;
+    flex-direction: column;
+    border: solid  0px goldenrod; 
+    width: 300px; 
+    padding: 20px;
+    margin: 30px;
+}
+.img{
+    height: 300px;
+    width: 300px;
+    border: dashed 1px rgb(199, 227, 42);
+    align-items: center;
+    align-self: center;
+    margin-bottom: 35px;
+}
+
+.book-form-container button{
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
